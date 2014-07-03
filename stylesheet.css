@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    text-align: center;
+    height: 100%;
+    display: block;
+    font: .8em Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#container { display: block; min-height: 100%; }
+
+#header {
+    margin: 1.7em auto;
+    width: 96%;
+    text-align: right;
+}
+
+#tools li {
+    display: inline-block;
+    margin: 0 .5em;
+}
+
+#tools li a {
+    color: #333;
+}
+
+
+
+#main {
+    top: 40%;
+}
+
+#logo {
+    width: 268px;
+    margin: 135px auto 20px;
+}
+
+#searchfield {
+    width: 560px; height: 24px;
+    border: 1px solid lightgray;
+}
+
+.button {
+    margin: 17px 7px;
+    padding: 7px;
+    height: 30px;
+    background-color: rgb(242,242,242);
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    font: bold 11px Helvetica, sans-serif;
+    color: #333;
+}
+
+
+
+
+#info {
+    background-color: rgb(242, 242, 242);
+    border-top: 1px solid lightgray;
+    height:40px; width: 100%;
+    position: absolute;
+    bottom: 0; left: 0;
+    margin: 0; padding: 0;
+}
+
+#business {
+    float: left;
+}
+
+#user_info { float: right; margin-right: 2em; }
+
+#business li, #user_info li {
+    display: inline-block;
+    margin: 0 1em;
+    padding: 0;
+}
+
+#business li a, #user_info li a {
+    color: #666;
+}
+
